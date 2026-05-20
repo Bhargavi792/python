@@ -97,6 +97,47 @@ print("Cube:", cube)
 price = 499
 print(type(price))
 
+#problem12
 
+x = 5
+y = "John"
+print(x)
+print(y)
 
+#problem13
+x = 4
+x = "Sally"
+print(x)
 
+#problem14(casting)
+x = str(3) #x will be '3'
+y = int(3) #y will be 3 
+z = float(3) #z will be 3.0
+
+#problem15
+X = 5
+Y = "John"
+print(type(X))      
+print(type(Y))
+
+#problem16(CAMAL CASE)
+myVariableName = "bhargavi"
+#pascal case 
+MyVariableName = "bhargavi"
+#snake case
+my_variable_name = "bhargavi"
+
+#problem17(many to one variable)
+a, b , c ="orange", "banana", "cherry"
+print(a)
+print(b)
+print(c)
+
+#problem18(one to many variable)
+x = y = z = "mango"
+print(x)
+print(y)
+print(z)
+
+#unpacking a collection
+#If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.

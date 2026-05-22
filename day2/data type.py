@@ -31,6 +31,7 @@ x = bytearray(5)	bytearray
 x = memoryview(bytes(5))	memoryview	
 x = None	NoneType	
 
+
 Random Number
 Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
 ex: import random

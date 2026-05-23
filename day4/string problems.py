@@ -60,7 +60,7 @@ else:
     print("Not Palindrome")
 
   #problem12
-  text = "PyThOn"
+text = "Python"
 
 upper = 0
 lower = 0
@@ -96,5 +96,30 @@ for ch in text:
         result += ch
 
 print(result)
+
+#problem16
+text = "apple"
+
+for ch in text:
+    print(ch, ":", text.count(ch))
+
+#problem17
+a = "listen"
+b = "silent"
+
+if sorted(a) == sorted(b):
+    print("Anagram")
+else:
+    print("Not Anagram")
+
+#problem18
+text = "Python programming language"
+
+words = text.split()
+
+longest = max(words, key=len)
+
+print(longest)
+
 
 

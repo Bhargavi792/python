@@ -149,7 +149,15 @@ result += text[-1] + str(count)
 
 print(result)
 
+#problem21
+text = "aabbcddee"
 
+for ch in text:
+    if text.count(ch) == 1:
+        print(ch)
+        break
+
+    
 
 
 

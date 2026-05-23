@@ -121,5 +121,18 @@ longest = max(words, key=len)
 
 print(longest)
 
+#problem19
+text = "education"
+
+result = ""
+
+for ch in text:
+    if ch not in "aeiouAEIOU":
+        result += ch
+
+print(result)
+
+
+
 
 

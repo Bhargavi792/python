@@ -58,4 +58,43 @@ if text == text[::-1]:
     print("Palindrome")
 else:
     print("Not Palindrome")
-    
+
+  #problem12
+  text = "PyThOn"
+
+upper = 0
+lower = 0
+
+for ch in text:
+    if ch.isupper():
+        upper += 1
+    elif ch.islower():
+        lower += 1
+
+print("Uppercase:", upper)
+print("Lowercase:", lower)
+
+#problem13
+text = "python programming"
+
+print(text.replace(" ", "_"))
+
+#problem14
+text = "Python is easy"
+
+words = text.split()
+
+print(len(words))
+
+#problems15
+text = "programming"
+
+result = ""
+
+for ch in text:
+    if ch not in result:
+        result += ch
+
+print(result)
+
+

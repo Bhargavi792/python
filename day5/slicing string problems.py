@@ -28,3 +28,26 @@ text = "bhargavi"
 print(text[-3:1])
 
 #problem8
+text = "bhargavi"
+print(text[:5][::-1])
+
+#problem9
+text = "madam"
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+#problem10
+email = "bhargavi@gmail.com"
+start = email.index("@") + 1
+end = email.index(".")
+
+print(email[start:end])
+
+#problem11
+text = "python programmer"
+print(text[::-2])
+
+#problem12

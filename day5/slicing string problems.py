@@ -51,3 +51,26 @@ text = "python programmer"
 print(text[::-2])
 
 #problem12
+text = "database"
+ 
+mid = len(text) // 2
+print(text[:mid])
+print(text[mid:])
+
+#problem13
+text = "artifical"
+print(text[2:-2])
+
+#problem14
+text = "bharu"
+new_text = text[-1] + text[1:-1] + text[0]
+
+print(new_text)
+
+#problem15
+text = "python is easy"
+words = text.split()
+print(words[::-1])
+
+#problem16
+text 

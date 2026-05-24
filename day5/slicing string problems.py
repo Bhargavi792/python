@@ -73,4 +73,42 @@ words = text.split()
 print(words[::-1])
 
 #problem16
-text 
+text = "Programming"
+
+print(text[3:] + text[:3])
+
+#problem17
+text = "Python"
+
+print(text[-2:] + text[:-2])
+
+#problem18
+email = "student123@yahoo.com"
+
+print(email[:email.index("@")])
+
+#problem19
+text = "education"
+
+vowels = "aeiou"
+
+only_vowels = ""
+
+for ch in text:
+    if ch in vowels:
+        only_vowels += ch
+
+reversed_vowels = only_vowels[::-1]
+
+result = ""
+index = 0
+
+for ch in text:
+    if ch in vowels:
+        result += reversed_vowels[index]
+        index += 1
+    else:
+        result += ch
+
+print(result)
+

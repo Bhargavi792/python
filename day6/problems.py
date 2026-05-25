@@ -163,3 +163,14 @@ print(result)
 
 
 #problem25
+text = "Artificial Intelligence and Machine Learning"
+
+words = text.split()
+
+abbr = ""
+
+for word in words:
+    abbr += word[0].upper()
+
+print(abbr)
+

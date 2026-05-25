@@ -68,3 +68,50 @@ words = ["Python", "is", "easy"]
 print(" ".join(words))
 
 #problem14
+text = "programming"
+
+vowels = "aeiou"
+
+result = ""
+
+for ch in text:
+    if ch not in vowels:
+        result += ch
+
+print(result)
+
+#problem15
+text = "PyThOn"
+
+print(text.swapcase())
+
+#problem16
+text = "Artificial Intelligence"
+
+print(len(text))
+
+#problem17
+text = "python programming language"
+
+print(text.title())
+
+#problem18
+text = "Machine learning is fun"
+
+words = text.split()
+
+print(len(words))
+
+#problem19
+text = "programming"
+
+result = ""
+
+for ch in text:
+    if ch not in result:
+        result += ch
+
+print(result)
+
+
+#problem20

@@ -148,4 +148,18 @@ text = "Python is easy"
 
 print(text.replace(" ", "\n"))
 
+#problems24
+text = "Artificial Intelligence"
 
+vowels = "aeiouAEIOU"
+
+result = ""
+
+for ch in text:
+    if ch in vowels:
+        result += ch
+
+print(result)
+
+
+#problem25

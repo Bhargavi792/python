@@ -115,3 +115,37 @@ print(result)
 
 
 #problem20
+text = "Python is an amazing language"
+
+words = text.split()
+
+longest = max(words, key=len)
+
+print(longest)
+
+#problem21
+text = "HELLO"
+
+result = ""
+
+for i in range(len(text)):
+    if i % 2 == 0:
+        result += text[i].lower()
+    else:
+        result += text[i].upper()
+
+print(result)
+
+#problem22
+text = "Madam"
+
+text = text.lower()
+
+print(text == text[::-1])
+
+#problem23
+text = "Python is easy"
+
+print(text.replace(" ", "\n"))
+
+

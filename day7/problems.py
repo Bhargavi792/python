@@ -31,7 +31,7 @@ print("D:\\Python\\Projects\\Test")
 #problem10
 print("Name\tMarks\nRam\t90")
  
- 
+
 #problem11
 print("\"Python\"\n\\tis\n\\\\awesome\\\\")
 

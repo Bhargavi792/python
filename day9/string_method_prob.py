@@ -40,3 +40,68 @@ text = "Python is easy"
 print(text.split())
 
 #problem11
+words = ["Python", "is", "fun"]
+
+print(" ".join(words))
+
+#problem12
+text = "python developer"
+words = text.split()
+print(len(words))
+
+#problem13
+text = "pillow"
+print(text[::-1])
+
+#problem14
+text = "madam"
+
+if text == text[::-1]:
+ print("palindrome")
+else:
+     print("it is not palindrome")
+
+#problem15
+text = "programming"
+
+vowels = "aeiou"
+
+result = ""
+
+for ch in text:
+    if ch not in vowels:
+        result += ch
+print(result)
+
+#problem16
+text = "python is powerful"
+
+print(text.title())
+
+#problem17
+text = "12345"
+
+print(text.isdigit())
+
+#problem18
+text = "Python"
+
+print(text.isalpha())
+
+#problem19
+text = "PyThOn"
+
+upper = 0
+lower = 0
+
+for ch in text:
+    if ch.isupper():
+        upper += 1
+    elif ch.islower():
+        lower += 1
+
+print("Uppercase:", upper)
+print("Lowercase:", lower)
+
+#problem20
+

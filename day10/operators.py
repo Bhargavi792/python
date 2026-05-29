@@ -7,7 +7,7 @@ Identity operators
 Membership operators
 Bitwise operators
 
-arithemetic operators
+arithemetic operator
 +	Addition	x + y	
 -	Subtraction	x - y	
 *	Multiplication	x * y	
@@ -15,6 +15,7 @@ arithemetic operators
 %	Modulus	x % y	
 **	Exponentiation	x ** y	
 //	Floor division	x // y	
+
 
 #assignment operators
 =	x = 5	x = 5	

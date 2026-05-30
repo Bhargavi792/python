@@ -62,3 +62,36 @@ width = 8
 area = length * width
 print(area)
 
+#problem 12
+p = 10000
+r = 5
+t = 2
+
+si = (p * r * t) / 100
+print(si)
+
+#problem 13
+a = 45
+b = 32
+
+print(a > b)
+
+#problem 14
+x = 100
+y = 100
+
+print(x == y)
+
+#problem 15
+age1 = 20
+age2 = 18
+
+print(age1 >= age2)
+
+#problem 16
+age = 19
+citizen = True
+
+print(age >= 18 and citizen)
+
+#problem 17

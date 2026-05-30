@@ -140,3 +140,23 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
 else:
     print("Not a Leap Year")
 
+#problem 23
+amount = 6000
+member = True
+
+if amount > 5000 and member:
+    print("Discount Available")
+else:
+    print("No Discount")
+
+
+#problem 24
+marks = 38
+
+if marks >= 35:
+    print("Pass")
+else:
+    print("Fail")
+
+
+#problem 25

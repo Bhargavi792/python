@@ -40,3 +40,25 @@ d = 8
 print("Arithmetic expression", a * b // c + d)
 
 #problem 9
+num = 27
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+#problem 10
+a = 10
+b = 20
+
+a, b = b, a
+
+print(a, b)
+
+#problem 11
+length = 15
+width = 8
+
+area = length * width
+print(area)
+

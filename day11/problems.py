@@ -95,3 +95,20 @@ citizen = True
 print(age >= 18 and citizen)
 
 #problem 17
+username = "admin"
+password = "1234"
+
+print(username == "admin" and password == "1234")
+
+#problem 18
+num = 15
+
+print(num >= 10 and num <= 20)
+
+#problem 19
+x = 10
+
+x += 5
+
+print(x)
+

@@ -112,3 +112,31 @@ x += 5
 
 print(x)
 
+#problem 20
+x = 8
+
+x *= 4
+
+print(x)
+
+#problem 21
+a = 12
+b = 45
+c = 30
+
+if a >= b and a >= c:
+    print(a)
+elif b >= a and b >= c:
+    print(b)
+else:
+    print(c)
+
+
+#problem 22
+year = 2024
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+

@@ -48,6 +48,20 @@ From Python's perspective, lists are defined as objects with the data type 'list
 ->The list() Constructor
 It is also possible to use the list() constructor when creating a new list.
 
+-->>ACCESS THE LIST
+Access Items
+List items are indexed and you can access them by referring to the index number:
+
+->Negative Indexing
+Negative indexing means start from the end
+
+-1 refers to the last item, -2 refers to the second last item etc.
+
+->Range of Indexes
+You can specify a range of indexes by specifying where to start and where to end the range.
+
+When specifying a range, the return value will be a new list with the specified items.
+
 
 
 '''

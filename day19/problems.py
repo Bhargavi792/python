@@ -23,7 +23,6 @@ a = 5
 c = float(a)
 print(c)
 
-
 #problem 4
 a = 5.6
 c = int(a)

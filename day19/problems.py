@@ -18,11 +18,11 @@ print(type(b))
 print(type(c))
 print(type(d))
 
-
 #problem 3
 a = 5
 c = float(a)
 print(c)
+
 
 #problem 4
 a = 5.6

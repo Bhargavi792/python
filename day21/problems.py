@@ -45,3 +45,13 @@ result = str(num)
 
 print(result)
 print(type(result))
+
+
+#problem 6
+a = 10
+b = "20"
+
+result = a + int(b)
+
+print(result)
+

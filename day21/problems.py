@@ -39,3 +39,9 @@ print(result)
 print(type(result))
 
 #problem 5
+num = 15.5
+
+result = str(num)
+
+print(result)
+print(type(result))

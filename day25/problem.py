@@ -14,3 +14,4 @@ for i in range(len(text)-1):
 result += text[-1] + str(count)
 
 print(result)
+

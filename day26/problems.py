@@ -10,3 +10,4 @@ elif b <= a and b <= c:
 else:
     print("smallest:", c)
 
+

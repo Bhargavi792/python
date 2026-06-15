@@ -20,3 +20,4 @@ print(values.count(1))
 print(values.index(2))
 
 
+

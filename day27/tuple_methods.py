@@ -19,7 +19,8 @@ values = ( 2, 4, 5,)
 print(values.count(1))
 print(values.index(2))
 
-# problems
+# pr
+
 
 
 

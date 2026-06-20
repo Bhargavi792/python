@@ -15,6 +15,7 @@ vr = int(input("integer value"))
 print(vr)
 
 
+
 #float
 vr = float(input("float value"))
 print(vr)

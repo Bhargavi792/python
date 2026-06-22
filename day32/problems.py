@@ -14,3 +14,5 @@ else:
    print("not empty")
 
 #4.take 5 numbers from user and store them in empty list
+
+

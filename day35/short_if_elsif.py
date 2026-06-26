@@ -29,4 +29,5 @@ variable = value_if_true if condition else value_if_false
 ->Ternary operators are particularly useful for simple assignments and return statements.
 
 
+
 '''

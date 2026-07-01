@@ -56,5 +56,13 @@ celsius = 25
 fahrenheit = (celsius*9/5)+32
 print(fahrenheit)
 
+13.
+a = 10
+b = 12
+a,b = b,a
+print(a)
+print(b)
+
+
 
 
